@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Sora:wght@100..800&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Sora", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+a {
+  text-decoration: none;
+  color: #fff;
+}
+body {
+  background: #ddd;
+}
+.sampul {
+  width: 100%;
+  height: 300px;
+  padding: 15px;
+  background-image: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url(Sampul2.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.nama-utama {
+  width: 100%;
+  height: 150px;
+  padding: 5px;
+  color: #fff;
+  font-family: "Archivo Black", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 35px;
+}
+.latar-sosmed {
+  width: 100%;
+  height: 100px;
+  padding: 5px 12px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px 20px;
+}
+.latar-sosmed div {
+  background: transparent;
+  border: 1px solid #fff;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.latar-sosmed div ion-icon {
+  padding: 0 5px;
+  color: #fff;
+}
+.latar-sosmed div a {
+  text-decoration: none;
+  color: #fff;
+}
+.latar-profil {
+  width: 100%;
+  height: auto;
+  padding: 0 20px;
+  display: grid;
+  grid-template-columns: 1fr;
+  background: #fff;
+  padding-bottom: 50px;
+}
+.latar-profil p {
+  display: flex;
+  padding: 10px;
+  justify-content: center;
+  text-align: center;
+  font-size: 14px;
+}
+.latar-foto-profil {
+  margin-top: 200px;
+  height: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.foto-profil {
+  width: 100px;
+  height: 100px;
+  background-image: url(profil.jpg);
+  background-position: center;
+  background-size: cover;
+  border-radius: 50%;
+}
+.latar-data-pribadi {
+  width: 96%;
+  height: auto;
+  padding-bottom: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background: #fff;
+  margin-left: 2%;
+  border-radius: 10px;
+}
+.latar-data-pribadi p {
+  width: 100%;
+  padding: 5px 25px;
+  text-align: center;
+  font-size: 15px;
+}
+.keterangan {
+  border-top: 1px solid #ccc;
+  margin-top: 15px;
+  color: #555;
+}
+.latar-tombol1 {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.latar-tombol1 button {
+  width: auto;
+  height: 40px;
+  padding: 0 10px;
+  border: none;
+  background: #5226d8;
+  border-radius: 10px;
+}
